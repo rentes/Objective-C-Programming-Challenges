@@ -9,7 +9,9 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    float number1 = 3.14;
+    float number2 = 42.0;
+    double number3 = number1 + number2;
+    printf("%f\n", number3);
     return 0;
 }
